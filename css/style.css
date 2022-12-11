@@ -1,0 +1,71 @@
+.container {
+	width: 70%;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 2rem;
+}
+
+.card {
+    width: 30%;
+    justify-content: space-between;
+}
+
+.imgbox {
+    width: 100%;
+    position: relative;
+}
+
+
+img {
+    width: 100%;
+    position: absolute;
+}
+
+.imgbox > img:last-of-type {
+    position: absolute;
+    display: none;
+    top: 0;
+}
+
+.imgbox:hover img:last-of-type{
+display: block;
+}
+
+.imgheart {
+    position: absolute;
+    margin-top: 20px;
+    right: 0px;
+    padding: 0.8rem;
+    background-color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.imgheart:hover {
+    color: red;
+}
+
+.imgrow {
+    width: 100%;
+    position: absolute;
+    display: inline-block;
+    padding-top: 130%;
+}
+
+.imgbanner {
+    padding: 10px;
+    margin: 10px;
+    font-size: 1rem;
+    color: white;
+}
+
+.discount {
+    background-color: red;
+}
+
+.ecobanner {
+    background-color: green;
+}
+
